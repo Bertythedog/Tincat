@@ -111,7 +111,7 @@ p {
 /*--testimonials--*/
 
 #testimonials {
-padding: 7% 15%;
+
   text-align: center;
   background-color: #ff4c68;
   color: white;
@@ -121,6 +121,10 @@ padding: 7% 15%;
   width: 7rem;
   border-radius: 100%;
   margin: 20px;
+}
+
+.carousel-item {
+padding: 7% 15%;
 }
 
 #press {
@@ -135,5 +139,9 @@ padding: 7% 15%;
 }
 
 .toby-surrey {
+  font-size: 1.2rem;
+}
+
+.clarke-image {
   font-size: 1.2rem;
 }
