@@ -145,3 +145,14 @@ padding: 7% 15%;
 .clarke-image {
   font-size: 1.2rem;
 }
+
+/* Pricing */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
