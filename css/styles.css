@@ -55,9 +55,9 @@ font-weight: bolder;
 }
 
 .dog {
+  margin-left: 4rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
-  margin-left: 1rem;
   width: 60%;
   transform: rotate(25deg);
 }
