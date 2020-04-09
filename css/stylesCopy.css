@@ -1,0 +1,284 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-bold', sans-serif;
+}
+
+p {
+  font: color #8f8f8f;
+}
+
+/*  Headings  */
+.main-heading {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 900;
+  font-size: 2.8rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/* Sections */
+.coloured {}
+
+.white {}
+
+/* navigation Bar */
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat';
+  font-weight: lighter;
+  font-size: 1.2rem;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Download-Button */
+.Download-Button {
+  margin-top: 5%;
+  margin-right: 5%;
+}
+
+.dog {
+  width: 45%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Break Point Start */
+@media (max-width: 990px) {
+  #title {
+    text-align: center;
+  }
+
+  .dog {
+    position: static;
+    transform: rotate(20%);
+    margin-top: 2rem;
+  }
+}
+
+/* /Break Point Finish */
+/* Features Section */
+#features {
+  padding: 5% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.features-text {
+  font-size: 2rem;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/*--testimonials--*/
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-text {
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.testimonial-image {
+  width: 30%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 20%;
+  margin: 20px 20px 20px;
+}
+
+.toby-surrey {
+  font-size: 1.2rem;
+}
+
+.clarke-image {
+  font-size: 1.2rem;
+}
+
+/* Pricing */
+#pricing {
+  padding: 6% 14%;
+}
+
+.price-heading {
+  font-size: 1.5rem;
+  line-height: 1.3rem;
+  padding-bottom: 1rem;
+}
+
+.price-text {
+  font-weight: bolder;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  margin-bottom: 1.5rem;
+}
+
+#cta {
+  background-color: #ff4c68;
+  padding: 6% 14%;
+  color: #fff;
+}
+
+.fa {
+  color: #dc143c;
+  margin-bottom: 10px;
+}
+
+.true-love {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid2 {
+  padding: 0;
+}
+
+.botton-icons {
+  padding: .5%;
+}
+
+.copyright {
+  margin-bottom: 2rem;
+  line-height: 1.5;
+  padding-top: 1rem;
+}
+
+.container-fluid3 {
+  padding-top: 2rem;
+}
+
+/* PULSE */
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  50% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+
+  100% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  50% {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+
+  100% {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  50% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+
+  100% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  50% {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+
+  100% {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+.faa-pulse.animated,
+.faa-pulse.animated-hover:hover,
+.faa-parent.animated-hover:hover>.faa-pulse {
+  -webkit-animation: pulse 2s linear infinite;
+  animation: pulse 2s linear infinite;
+}
